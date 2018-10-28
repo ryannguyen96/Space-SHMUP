@@ -24,7 +24,7 @@ public class Main : MonoBehaviour
 
     private BoundsCheck bndCheck;
 
-    public void shipDestroyed(Enemy e)
+    public void ShipDestroyed(Enemy e)
     {
         // Potentially generate a PowerUp
         if (Random.value <= e.powerUpDropChance)
